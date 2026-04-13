@@ -1,0 +1,26 @@
+# 1)
+a = [1,2,3,8,99,100]
+print(max(a))
+#2)Check Palindrome (Using() & join())
+s = input("Enter a String:")
+if s == "".join(reversed(s)):
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+# 3) Count Even Numbers (Using filter())
+a = [1,2,3,4,5,6,7,8,9,10]
+res = list(filter(lambda x:x%2 == 0,a))
+print(res)
+print(len(res))
+#4)Remove Duplicates (Using set())
+#5) Sum of Digits (Using sum())
+n = 12345
+res = sum(int(digit) for digit in str(n))
+print(res)
+#6) Sort Words ALphabetically(using(sorted))
+a = ['thriveni','apple','cat','sai']
+print(list(sorted(a)))
+# 7) Index with value (Using enumerate())
+# 8) Pair Two Lists(Using zip())
+# 9) Find the Common Elements(using(set()))
+# 10) Find the second largest Number (Using sorted())
