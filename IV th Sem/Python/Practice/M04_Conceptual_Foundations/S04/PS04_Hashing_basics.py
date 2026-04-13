@@ -1,4 +1,4 @@
-#Hashing: Hash Function --->Hash Values
+'''#Hashing: Hash Function --->Hash Values
 #       Hash Table 
 
 def Frequency_Count(s):
@@ -15,3 +15,5 @@ class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
          return len(nums) != len(set(nums))
 print(containsDuplicate([1,2,3,4]))
+'''
+print("hello")
